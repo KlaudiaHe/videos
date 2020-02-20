@@ -41,9 +41,9 @@ public class VideoService {
     public void fillDB(){
         save(new Video(1L, "Snatch", LocalDate.of(2000, 1,1)));
         save(new Video(2L, "Pulp Fiction", LocalDate.of(1998, 10,15)));
-        save(new Video(2L, "Call me by your name", LocalDate.of(2017, 1,22)));
-        save(new Video(2L, "Howl's Moving Castle", LocalDate.of(2004, 9,5)));
-        save(new Video(2L, "Dune", LocalDate.of(1984, 12,3)));
+        save(new Video(3L, "Call me by your name", LocalDate.of(2017, 1,22)));
+        save(new Video(4L, "Howl's Moving Castle", LocalDate.of(2004, 9,5)));
+        save(new Video(5L, "Dune", LocalDate.of(1984, 12,3)));
         }
 
     }
